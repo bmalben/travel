@@ -201,12 +201,21 @@ button.search-toggle .magnifying-glass {
 }
 #footer{
     background-color: #000;
-    color: #ff8400;
+    color: #fff;
     padding: 50px;
     margin-top: 30px;
+   
 }
-#footer h5{
-    margin-top: 0px;
+.neww{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+}
+.neww div{
+    padding: 20px;
+}
+.neww div h6{
+    padding: 10px;
 }
 
 .now{
@@ -214,4 +223,13 @@ button.search-toggle .magnifying-glass {
     justify-content: center;
     align-items: center;
     /* margin-top: 10px; */
+}
+
+.pass a i:hover{
+    font-size: xx-large;
+    width: 62px;
+}
+
+.btn{
+    border-style: none;
 }
